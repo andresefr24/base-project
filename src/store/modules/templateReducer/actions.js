@@ -1,7 +1,19 @@
 export const Types = {
-  TEMPLATE_ACTION: "@template_reducer/TEMPLATE_ACTION"
+  TEMPLATE_ACTION_TRIGGER: "@template_reducer/TEMPLATE_ACTION_TRIGGER",
+  TEMPLATE_ACTION_SUCCESS: "@template_reducer/TEMPLATE_ACTION_SUCCESS",
+  TEMPLATE_ACTION_FAILURE: "@template_reducer/TEMPLATE_ACTION_FAILURE"
 };
 
-export const templateAction = () => ({
-  type: Types.TEMPLATE_ACTION
+export const templateTrigger = () => ({
+  type: Types.TEMPLATE_ACTION_TRIGGER
+});
+
+export const templateActionSuccess = payload => ({
+  type: Types.TEMPLATE_ACTION_SUCCESS,
+  payload: payload
+});
+
+export const templateActionFailure = payload => ({
+  type: Types.TEMPLATE_ACTION_FAILURE,
+  payload: payload
 });

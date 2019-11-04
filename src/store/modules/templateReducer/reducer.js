@@ -9,7 +9,7 @@ export default function templateReducer(state = INITIAL_STATE, action) {
 
   return produce(state, draft => {
     switch (type) {
-      case Types.TEMPLATE_ACTION: {
+      case Types.TEMPLATE_ACTION_TRIGGER: {
         break;
       }
       default:
