@@ -13,7 +13,6 @@ export const templateActionSuccess = payload => ({
   payload
 });
 
-export const templateActionFailure = payload => ({
-  type: Types.TEMPLATE_ACTION_FAILURE,
-  payload
+export const templateActionFailure = () => ({
+  type: Types.TEMPLATE_ACTION_FAILURE
 });

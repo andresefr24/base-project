@@ -2,7 +2,9 @@ import produce from "immer";
 
 import { Types } from "./actions";
 
-export const INITIAL_STATE = {};
+export const INITIAL_STATE = {
+  templateState: "template"
+};
 
 export default function templateReducer(state = INITIAL_STATE, action) {
   const { type, payload } = action;

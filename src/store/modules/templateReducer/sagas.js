@@ -12,9 +12,9 @@ export function* templateSaga() {
       get,
       `${process.env.REACT_APP_BASE_API_URL}login`
     );
-    console.log(response);
+    put(templateActionSuccess(response));
   } catch (err) {
-    console.log(err);
+    put(templateActionFailure());
   }
 }
 
