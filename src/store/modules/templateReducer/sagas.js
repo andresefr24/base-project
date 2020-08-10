@@ -3,7 +3,7 @@ import { get } from "axios";
 import {
   Types as templateTypes,
   templateActionSuccess,
-  templateActionFailure
+  templateActionFailure,
 } from "./actions";
 
 export function* templateSaga() {
@@ -19,5 +19,5 @@ export function* templateSaga() {
 }
 
 export default all([
-  takeLatest(templateTypes.TEMPLATE_ACTION_TRIGGER, templateSaga)
+  takeLatest(templateTypes.TEMPLATE_ACTION_TRIGGER, templateSaga),
 ]);

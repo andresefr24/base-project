@@ -57,8 +57,8 @@ export const resources = {
       passwordsMustMatch: "Las contraseñas deben coincidir",
       fieldIsRequired: "Este campo es obligatorio",
       anotherDeckHasThatName: "Otro de tus mazos ya tiene ese nombre",
-      mustAcceptTerms: " debes aceptar la Política de privacidad"
-    }
+      mustAcceptTerms: " debes aceptar la Política de privacidad",
+    },
   },
   en: {
     translation: {
@@ -118,7 +118,7 @@ export const resources = {
       passwordsMustMatch: "Passwords must match",
       fieldIsRequired: "Field is required",
       anotherDeckHasThatName: "Another of your decks has that name",
-      mustAcceptTerms: "Must accept terms of service"
-    }
-  }
+      mustAcceptTerms: "Must accept terms of service",
+    },
+  },
 };

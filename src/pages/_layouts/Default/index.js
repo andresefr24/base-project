@@ -16,7 +16,7 @@ export default function Default({ children }) {
 }
 
 Default.propTypes = {
-  children: PropTypes.node.isRequired
+  children: PropTypes.node.isRequired,
 };
 
 Default.defaultProps = {};

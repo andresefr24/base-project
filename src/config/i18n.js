@@ -8,8 +8,8 @@ i18n.use(initReactI18next).init({
   lng: window.navigator.language.split("-")[0] || "es",
   keySeparator: false,
   interpolation: {
-    escapeValue: false
-  }
+    escapeValue: false,
+  },
 });
 
 export default i18n;

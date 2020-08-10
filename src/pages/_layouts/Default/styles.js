@@ -4,14 +4,14 @@ import { mainTheme } from "~/theme";
 export const useStyles = makeStyles({
   mainContainer: {
     display: "flex",
-    minHeight: "100%"
+    minHeight: "100%",
   },
   reducedHeight: {
     display: "flex",
-    minHeight: "calc(100% - 64px)"
+    minHeight: "calc(100% - 64px)",
   },
   mobileReduction: { minHeight: "calc(100% - 56px)" },
   darker: {
-    backgroundColor: mainTheme.palette.darker.main
-  }
+    backgroundColor: mainTheme.palette.darker.main,
+  },
 });

@@ -5,7 +5,7 @@ import {
   Trash,
   ChevronUp,
   ChevronDown,
-  Save
+  Save,
 } from "styled-icons/boxicons-solid";
 import { EditOutline, CloseOutline } from "styled-icons/evaicons-outline";
 import { Duplicate, Check, Minus } from "styled-icons/boxicons-regular";
