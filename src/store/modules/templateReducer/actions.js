@@ -10,10 +10,10 @@ export const templateTrigger = () => ({
 
 export const templateActionSuccess = payload => ({
   type: Types.TEMPLATE_ACTION_SUCCESS,
-  payload: payload
+  payload
 });
 
 export const templateActionFailure = payload => ({
   type: Types.TEMPLATE_ACTION_FAILURE,
-  payload: payload
+  payload
 });

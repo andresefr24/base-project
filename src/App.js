@@ -1,13 +1,19 @@
 import React from "react";
-import Button from "~/components/Button";
 import { Provider } from "react-redux";
-import Home from "~/pages/home";
+import { ThemeProvider as MainTheme } from "styled-components";
+import { ThemeProvider } from "@material-ui/core/styles";
 import { store } from "~/store";
+import { theme, mainTheme } from "~/theme";
+import CustomRouter from "~/routes/Router";
 
 const App = () => {
   return (
     <Provider store={store}>
-      <Home />
+      <MainTheme theme={mainTheme}>
+        <ThemeProvider theme={theme}>
+          <CustomRouter />
+        </ThemeProvider>
+      </MainTheme>
     </Provider>
   );
 };

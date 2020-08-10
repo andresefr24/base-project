@@ -1,9 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { config } from "dotenv";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
+import "~/config/i18n";
 
-import { config } from "dotenv";
 config();
 
 ReactDOM.render(<App />, document.getElementById("root"));
